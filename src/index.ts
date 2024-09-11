@@ -4,7 +4,11 @@ const app = new Elysia().get("/", () => {
   let count = 0;
 
   // Loop 1 juta kali
-  for (let i = 0; i < 10000000; i++) {
+  for (let i = 0; i < 100000000; i++) {
+    count++;
+  }
+  count = 0
+  for (let i = 0; i < 100000000; i++) {
     count++;
   }
 
